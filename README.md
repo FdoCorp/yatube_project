@@ -18,4 +18,3 @@ python manage.py runserver
 '''
 ### Авторы
 Fdo-Corp
-`
