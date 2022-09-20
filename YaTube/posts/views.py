@@ -7,3 +7,6 @@ def index(request):
 
 def group_posts(request):
     return HttpResponse('Страница групп')
+
+def posts(request):
+    return HttpResponse('Страница с постами')
