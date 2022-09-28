@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-  <!-- тег span используется для добавления нужных стилей отдельным участкам текста -->
-  <p>© 2020 Copyright <span style="color:red">Ya</span>tube</p>
-</body>
-</html>
+<!DOCTYPE html> <!-- Используется html 5 версии -->
+{% load static %}
+<footer class="page-footer font-small blue border-top">
+  <div class="footer-copyright text-center py-3">© 2020 Copyright
+    <p><span style="color:red">Ya</span>tube</p>
+  </div>
+</footer>
