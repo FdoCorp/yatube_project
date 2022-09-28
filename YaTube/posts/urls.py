@@ -8,5 +8,5 @@ urlpatterns = [
     path('', views.index),
     path('index.html', views.index, name='index'),
     # Страница с отфильтрофанными группами
-    path('group_list.html', views.group_posts, name='group'),
+    path('group<slug:slug>.<slug:slug>', views.group_posts, name='group'),
 ]
